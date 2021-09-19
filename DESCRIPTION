@@ -1,14 +1,31 @@
 Package: fasti
-Title: What the Package Does (One Line, Title Case)
+Title: Datasets for 'ArchaeoPhases'
 Version: 0.0.0.9000
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    c(person(given = "Anne",
+             family = "Philippe",
+             role = c("aut", "cre"),
+             email = "anne.philippe@univ-nantes.fr",
+             comment = c(ORCID = "0000-0002-5331-5087")),
+      person(given = "Thomas S.",
+             family = "Dye",
+             role = "ctb",
+             comment = c(ORCID = "0000-0001-8116-782X")),
+      person(given = "Nicolas",
+             family = "Frerebeau",
+             role = "aut",
+             email = "nicolas.frerebeau@u-bordeaux-montaigne.fr",
+             comment = c(ORCID = "0000-0001-5759-4944")))
+Maintainer: Anne Philippe <anne.philippe@univ-nantes.fr>
+Description: Datasets for Chronological Modelling with 'ArchaeoPhases'.
+    This package provides models and data to reproduce results from
+    'ArchaeoPhases' examples and vignettes.
 License: GPL (>= 3)
+URL: https://packages.tesselle.org/fasti/,
+    https://github.com/tesselle/fasti
+BugReports: https://github.com/tesselle/fasti/issues
+Depends: 
+    R (>= 2.10)
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
