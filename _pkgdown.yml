@@ -1,0 +1,7 @@
+url: https://packages.tesselle.org/fasti
+
+template:
+  package: tekton
+  opengraph:
+    twitter:
+      creator: "@nfrerebeau"

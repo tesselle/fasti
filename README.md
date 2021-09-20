@@ -5,6 +5,8 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/tesselle/fasti/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/fasti/actions)
+
 [![r-universe](https://tesselle.r-universe.dev/badges/fasti)](https://tesselle.r-universe.dev)
 
 [![Project Status: Active – The project has reached a stable, usable
