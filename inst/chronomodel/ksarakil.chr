@@ -1,0 +1,902 @@
+{
+    "app_version": "2.0.18",
+    "dates_trash": [
+    ],
+    "events": [
+        {
+            "blue": 160,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 26210,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 130,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-53005",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 154,
+            "id": 0,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 540,
+            "item_y": -135,
+            "method": 0,
+            "name": "V",
+            "phase_ids": "0",
+            "red": 217,
+            "type": 0
+        },
+        {
+            "blue": 169,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 28810,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 130,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-54848",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 74,
+            "id": 1,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 540,
+            "item_y": 90,
+            "method": 0,
+            "name": "VI",
+            "phase_ids": "1",
+            "red": 178,
+            "type": 0
+        },
+        {
+            "blue": 232,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 35880,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 260,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-57545",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 94,
+            "id": 2,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 540,
+            "item_y": 540,
+            "method": 0,
+            "name": "XII",
+            "phase_ids": "1",
+            "red": 178,
+            "type": 0
+        },
+        {
+            "blue": 217,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 39910,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 370,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-54847",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 171,
+            "id": 3,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 225,
+            "item_y": 765,
+            "method": 0,
+            "name": "XVI_1",
+            "phase_ids": "2",
+            "red": 217,
+            "type": 0
+        },
+        {
+            "blue": 237,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 35960,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 230,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-57544",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 155,
+            "id": 4,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 450,
+            "item_y": 765,
+            "method": 0,
+            "name": "XVI_2",
+            "phase_ids": "2",
+            "red": 32,
+            "type": 0
+        },
+        {
+            "blue": 76,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 37320,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 270,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-57598",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 47,
+            "id": 5,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 675,
+            "item_y": 765,
+            "method": 0,
+            "name": "XVI_3",
+            "phase_ids": "2",
+            "red": 105,
+            "type": 0
+        },
+        {
+            "blue": 161,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 39890,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 310,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-57599",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 122,
+            "id": 6,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 900,
+            "item_y": 765,
+            "method": 0,
+            "name": "XVI_4",
+            "phase_ids": "2",
+            "red": 64,
+            "type": 0
+        },
+        {
+            "blue": 71,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 34090,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 220,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-53001",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 232,
+            "id": 7,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 225,
+            "item_y": 1035,
+            "method": 0,
+            "name": "XVII_1",
+            "phase_ids": "2",
+            "red": 31,
+            "type": 0
+        },
+        {
+            "blue": 201,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 39850,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 340,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-54846",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 151,
+            "id": 8,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 450,
+            "item_y": 1035,
+            "method": 0,
+            "name": "XVII_2",
+            "phase_ids": "2",
+            "red": 2,
+            "type": 0
+        },
+        {
+            "blue": 185,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 36730,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 240,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-57602",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 249,
+            "id": 9,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 675,
+            "item_y": 1035,
+            "method": 0,
+            "name": "XVII_3",
+            "phase_ids": "2",
+            "red": 140,
+            "type": 0
+        },
+        {
+            "blue": 8,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 38260,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 260,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-57603",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 155,
+            "id": 10,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 900,
+            "item_y": 1035,
+            "method": 0,
+            "name": "XVII_4",
+            "phase_ids": "2",
+            "red": 166,
+            "type": 0
+        },
+        {
+            "blue": 226,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 36290,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 240,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-57542",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 196,
+            "id": 11,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 540,
+            "item_y": 1260,
+            "method": 0,
+            "name": "XVIII",
+            "phase_ids": "2",
+            "red": 112,
+            "type": 0
+        },
+        {
+            "blue": 21,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 39390,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 330,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-53004",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 174,
+            "id": 12,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 540,
+            "item_y": 1485,
+            "method": 0,
+            "name": "XIX",
+            "phase_ids": "2",
+            "red": 206,
+            "type": 0
+        },
+        {
+            "blue": 199,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 40040,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 340,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-57597",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 8,
+            "id": 13,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 540,
+            "item_y": 1710,
+            "method": 0,
+            "name": "XX",
+            "phase_ids": "2",
+            "red": 250,
+            "type": 0
+        },
+        {
+            "blue": 33,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 40550,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 350,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-53000",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 246,
+            "id": 14,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 540,
+            "item_y": 1935,
+            "method": 0,
+            "name": "XXII",
+            "phase_ids": "3",
+            "red": 150,
+            "type": 0
+        },
+        {
+            "blue": 192,
+            "dates": [
+                {
+                    "blue": 255,
+                    "data": {
+                        "age": 34310,
+                        "delta_r": 53,
+                        "delta_r_error": 43,
+                        "error": 230,
+                        "ref_curve": "marine13.14c"
+                    },
+                    "delta_average": 0,
+                    "delta_error": 0,
+                    "delta_fixed": 0,
+                    "delta_max": 0,
+                    "delta_min": 0,
+                    "delta_type": -1,
+                    "green": 0,
+                    "id": 0,
+                    "method": 1,
+                    "name": "GrA-53006",
+                    "plugin_id": "14c",
+                    "red": 0,
+                    "subdates": [
+                    ],
+                    "valid": true
+                }
+            ],
+            "green": 67,
+            "id": 15,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 540,
+            "item_y": 315,
+            "method": 0,
+            "name": "XI",
+            "phase_ids": "1",
+            "red": 69,
+            "type": 0
+        }
+    ],
+    "events_constraints": [
+        {
+            "bwd_id": 14,
+            "fwd_id": 13,
+            "id": 0
+        },
+        {
+            "bwd_id": 13,
+            "fwd_id": 12,
+            "id": 1
+        },
+        {
+            "bwd_id": 12,
+            "fwd_id": 11,
+            "id": 2
+        },
+        {
+            "bwd_id": 11,
+            "fwd_id": 10,
+            "id": 3
+        },
+        {
+            "bwd_id": 11,
+            "fwd_id": 9,
+            "id": 4
+        },
+        {
+            "bwd_id": 11,
+            "fwd_id": 8,
+            "id": 5
+        },
+        {
+            "bwd_id": 11,
+            "fwd_id": 7,
+            "id": 6
+        },
+        {
+            "bwd_id": 3,
+            "fwd_id": 2,
+            "id": 7
+        },
+        {
+            "bwd_id": 4,
+            "fwd_id": 2,
+            "id": 8
+        },
+        {
+            "bwd_id": 5,
+            "fwd_id": 2,
+            "id": 9
+        },
+        {
+            "bwd_id": 6,
+            "fwd_id": 2,
+            "id": 10
+        },
+        {
+            "bwd_id": 2,
+            "fwd_id": 15,
+            "id": 11
+        },
+        {
+            "bwd_id": 15,
+            "fwd_id": 1,
+            "id": 12
+        },
+        {
+            "bwd_id": 1,
+            "fwd_id": 0,
+            "id": 13
+        },
+        {
+            "bwd_id": 7,
+            "fwd_id": 3,
+            "id": 14
+        },
+        {
+            "bwd_id": 7,
+            "fwd_id": 5,
+            "id": 15
+        },
+        {
+            "bwd_id": 7,
+            "fwd_id": 4,
+            "id": 16
+        },
+        {
+            "bwd_id": 7,
+            "fwd_id": 6,
+            "id": 17
+        },
+        {
+            "bwd_id": 8,
+            "fwd_id": 3,
+            "id": 18
+        },
+        {
+            "bwd_id": 8,
+            "fwd_id": 4,
+            "id": 19
+        },
+        {
+            "bwd_id": 8,
+            "fwd_id": 5,
+            "id": 20
+        },
+        {
+            "bwd_id": 8,
+            "fwd_id": 6,
+            "id": 21
+        },
+        {
+            "bwd_id": 9,
+            "fwd_id": 3,
+            "id": 22
+        },
+        {
+            "bwd_id": 9,
+            "fwd_id": 4,
+            "id": 23
+        },
+        {
+            "bwd_id": 9,
+            "fwd_id": 5,
+            "id": 24
+        },
+        {
+            "bwd_id": 9,
+            "fwd_id": 6,
+            "id": 25
+        },
+        {
+            "bwd_id": 10,
+            "fwd_id": 3,
+            "id": 26
+        },
+        {
+            "bwd_id": 10,
+            "fwd_id": 4,
+            "id": 27
+        },
+        {
+            "bwd_id": 10,
+            "fwd_id": 6,
+            "id": 28
+        },
+        {
+            "bwd_id": 10,
+            "fwd_id": 5,
+            "id": 29
+        }
+    ],
+    "events_trash": [
+    ],
+    "mcmc": {
+        "iter_per_batch": 500,
+        "max_batches": 20,
+        "mixing_level": 0.99,
+        "num_burn": 1000,
+        "num_iter": 100000,
+        "num_proc": 3,
+        "seeds": [
+        ],
+        "thinning_interval": 10
+    },
+    "phases": [
+        {
+            "blue": 137,
+            "green": 244,
+            "id": 0,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 1.5,
+            "item_y": 1.5,
+            "name": "EPI",
+            "red": 192,
+            "tau_fixed": 0,
+            "tau_max": 0,
+            "tau_min": 0,
+            "tau_type": 0
+        },
+        {
+            "blue": 139,
+            "green": 174,
+            "id": 1,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 0,
+            "item_y": 135,
+            "name": "UP",
+            "red": 186,
+            "tau_fixed": 0,
+            "tau_max": 0,
+            "tau_min": 0,
+            "tau_type": 0
+        },
+        {
+            "blue": 152,
+            "green": 55,
+            "id": 2,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 0,
+            "item_y": 405,
+            "name": "Ahmarian",
+            "red": 86,
+            "tau_fixed": 0,
+            "tau_max": 0,
+            "tau_min": 0,
+            "tau_type": 0
+        },
+        {
+            "blue": 190,
+            "green": 153,
+            "id": 3,
+            "is_current": false,
+            "is_selected": false,
+            "item_x": 0,
+            "item_y": 675,
+            "name": "IUP",
+            "red": 155,
+            "tau_fixed": 0,
+            "tau_max": 0,
+            "tau_min": 0,
+            "tau_type": 0
+        }
+    ],
+    "phases_constraints": [
+    ],
+    "settings": {
+        "step": 1,
+        "step_forced": true,
+        "tmax": -25000,
+        "tmin": -47500
+    },
+    "step": 1,
+    "step_forced": true,
+    "tmax": -25000,
+    "tmin": -47500
+}

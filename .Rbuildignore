@@ -18,3 +18,7 @@
 ^\.github$
 ^\.httr-oauth$
 ^revdep$
+
+\.chr$
+\.chr.cal$
+\.chr.res$
