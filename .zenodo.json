@@ -1,0 +1,35 @@
+{
+    "title": "fasti: Datasets for 'ArchaeoPhases'",
+    "description": "<p>Datasets for Chronological Modelling with 'ArchaeoPhases'. This package provides models and data to reproduce results from 'ArchaeoPhases' examples and vignettes.</p>",
+    "creators": [
+        {
+            "orcid": "0000-0002-5331-5087",
+            "affiliation": "Universit\u00e9 de Nantes",
+            "name": "Philippe, Anne"
+        },
+        {
+            "orcid": "0000-0001-5759-4944",
+            "affiliation": "Universit\u00e9 Bordeaux Montaigne",
+            "name": "Frerebeau, Nicolas"
+        }
+    ],
+    "contributors": [
+        {
+            "orcid": "0000-0001-8116-782X",
+            "affiliation": "University of Hawai'i at Manoa",
+            "type": "Other",
+            "name": "Dye, Thomas S."
+        }
+    ],
+    "language": "eng",
+    "keywords": [
+        "bayesian statistics",
+        "radiocarbon dates",
+        "archaeology",
+        "geochronology",
+        "r package"
+    ],
+    "upload_type": "software",
+    "license": "GPL-3.0+",
+    "access_right": "open"
+}

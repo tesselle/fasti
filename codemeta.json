@@ -1,0 +1,66 @@
+{
+  "@context": ["https://doi.org/10.5063/schema/codemeta-2.0", "http://schema.org"],
+  "@type": "SoftwareSourceCode",
+  "identifier": "fasti",
+  "description": "Datasets for Chronological Modelling with 'ArchaeoPhases'.\n    This package provides models and data to reproduce results from\n    'ArchaeoPhases' examples and vignettes.",
+  "name": "fasti: Datasets for 'ArchaeoPhases'",
+  "codeRepository": "https://github.com/tesselle/fasti",
+  "relatedLink": "https://packages.tesselle.org/fasti/",
+  "issueTracker": "https://github.com/tesselle/fasti/issues",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "0.0.0.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.1.1 (2021-08-10)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Anne",
+      "familyName": "Philippe",
+      "email": "anne.philippe@univ-nantes.fr",
+      "@id": "https://orcid.org/0000-0002-5331-5087"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Nicolas",
+      "familyName": "Frerebeau",
+      "email": "nicolas.frerebeau@u-bordeaux-montaigne.fr",
+      "@id": "https://orcid.org/0000-0001-5759-4944"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Thomas S.",
+      "familyName": "Dye",
+      "@id": "https://orcid.org/0000-0001-8116-782X"
+    }
+  ],
+  "copyrightHolder": {},
+  "funder": {},
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Anne",
+      "familyName": "Philippe",
+      "email": "anne.philippe@univ-nantes.fr",
+      "@id": "https://orcid.org/0000-0002-5331-5087"
+    }
+  ],
+  "softwareSuggestions": [],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "R",
+      "name": "R",
+      "version": ">= 2.10"
+    }
+  ],
+  "readme": "https://github.com/tesselle/fasti/blob/master/README.md",
+  "fileSize": "30800.169KB",
+  "developmentStatus": "https://www.repostatus.org/#active",
+  "keywords": ["markov-chain", "r-package", "bayesian-statistics", "radiocarbon-dates", "geochronology"]
+}
