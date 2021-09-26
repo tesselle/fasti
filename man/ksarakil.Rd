@@ -5,11 +5,13 @@
 \alias{ksarakil}
 \title{Ksâr 'Akil Radiocarbon Dates}
 \format{
-A \code{\link{data.frame}} with 16 rows and 3 variables:
+A \code{\link{data.frame}} with 16 rows and 5 variables:
 \describe{
-\item{Name}{Laboratory code.}
-\item{Date}{Radiocarbon date (year BP).}
-\item{Uncertainty}{Radiocarbon error (year).}
+\item{code}{Laboratory code.}
+\item{date}{Radiocarbon date (year BP).}
+\item{error}{Radiocarbon error (year).}
+\item{layer}{Stratigraphic layer.}
+\item{phase}{Chronological phase.}
 }
 }
 \source{

@@ -33,3 +33,7 @@ inst/doc
 CRAN-RELEASE
 doc
 Meta
+
+# ChronoModel
+*.chr.cal
+*.chr.res

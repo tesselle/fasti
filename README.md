@@ -32,17 +32,45 @@ install.packages("fasti", repos = "https://tesselle.r-universe.dev")
 
 ## Usage
 
+``` r
+## Install ArchaeoPhases
+# install.packages("ArchaeoPhases")
+library(fasti)
+library(ArchaeoPhases)
+```
+
 The `inst/` directory contains:
 
--   [ChronoModel](http://www.chronomodel.fr) v2.0.18 project[1] and
+-   [ChronoModel](http://www.chronomodel.fr) v2.0.18 project files and
     output files (in the `chronomodel/` subdirectory).
 -   [OxCal](https://c14.arch.ox.ac.uk/oxcal.html) v4.4.4 script and
     output files (in the `oxcal/` subdirectory).
 -   [BCal](https://bcal.shef.ac.uk) output files (in the `bcal/`
     subdirectory).
 
+### ChronoModel
+
+This package allows to replicate the following results:
+
+-   `ksarakil`: chronology of Ksâr’Akil (Lebanon) – Bosch *et al.*
+    (2015)
+-   `lezoux`: chronology of a potter’s kiln from Lezoux (France) –
+    Menessier-Jouannet *et al.* (1995)
+
+``` r
+## Import ChronoModel output
+lezoux_path <- system.file("chronomodel/lezoux/Chain_all_Events.csv", 
+                           package = "fasti")
+lezoux_event <- read_chronomodel_events(lezoux_path, sep = ";", dec = ",")
+
+## Plot MCMC sample
+plot(lezoux_event, interval = "hpdi")
+```
+
+### OxCal
+
 This package allows to replicate Bosch *et al.* (2015) results with
-OxCal and ChronoModel.
+OxCal (and ChronoModel).
 
 ``` r
 ## Install and load oxcAAR
@@ -70,18 +98,19 @@ mcmc <- read.csv(path_mcmc, header = TRUE, sep = ",", dec = ".")
 
 Bosch, M. D., Mannino, M. A., Prendergast, A. L., O’Connell, T. C.,
 Demarchi, B., Taylor, S. M., Niven, L., van der Plicht, J. and Hublin,
-J.-J. (2015). New Chronology for Ksâr ’Akil (Lebanon) Supports Levantine
+J.-J. (2015). New Chronology for Ksâr’Akil (Lebanon) Supports Levantine
 Route of Modern Human Dispersal into Europe. *Proceedings of the
 National Academy of Sciences*, 112(25): 7683-8. DOI:
 [10.1073/pnas.1501529112](https://doi.org/10.1073/pnas.1501529112).
+
+Menessier-Jouannet, C., Bucur IIiana, E. J., Lanos P., Miallier D.
+(1995). Convergence de la typologie de céramiques et de trois méthodes
+chronométriques pour la datation d’un four de potier à Lezoux
+(Puy-de-Dôme). *Revue d’Archéométrie*, 19: 37-47. DOI:
+[10.3406/arsci.1995.926](https://doi.org/10.3406/arsci.1995.926).
 
 ## Contributing
 
 Please note that the **fasti** project is released with a [Contributor
 Code of Conduct](https://www.tesselle.org/conduct.html). By contributing
 to this project, you agree to abide by its terms.
-
-[1] To keep the package to a reasonable size, the ChronoModel files
-(`.chr`) are ignored when the package is built (only the output files
-are bundled). If you want to run the model on your machine, you must
-download the source package.
