@@ -16,7 +16,8 @@ Authors@R:
              role = "aut",
              email = "nicolas.frerebeau@u-bordeaux-montaigne.fr",
              comment = c(ORCID = "0000-0001-5759-4944")))
-Maintainer: Anne Philippe <anne.philippe@univ-nantes.fr>
+Maintainer: Nicolas Frerebeau
+    <nicolas.frerebeau@u-bordeaux-montaigne.fr>
 Description: Datasets for Chronological Modelling with 'ArchaeoPhases'.
     This package provides models and data to reproduce results from
     'ArchaeoPhases' examples and vignettes.
