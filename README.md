@@ -7,7 +7,9 @@
 
 [![R-CMD-check](https://github.com/tesselle/fasti/workflows/R-CMD-check/badge.svg)](https://github.com/tesselle/fasti/actions)
 
-[![r-universe](https://tesselle.r-universe.dev/badges/fasti)](https://tesselle.r-universe.dev)
+<a href="https://tesselle.r-universe.dev" class="pkgdown-devel"><img
+src="https://tesselle.r-universe.dev/badges/fasti"
+alt="r-universe" /></a>
 
 [![Project Status: Active – The project has reached a stable, usable
 state and is being actively
@@ -16,10 +18,10 @@ developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.re
 
 ## Overview
 
-Datasets for Chronological Modelling with
-[**ArchaeoPhases**](https://github.com/ArchaeoStat/ArchaeoPhases). This
-package provides models and data to reproduce results from
-**ArchaeoPhases** examples and vignettes.
+Datasets for chronological modelling with
+[**chronos**](https://packages.tesselle.org/chronos/). This package
+provides models and data to reproduce results from **chronos** examples
+and vignettes.
 
 ## Installation
 
@@ -33,10 +35,7 @@ install.packages("fasti", repos = "https://tesselle.r-universe.dev")
 ## Usage
 
 ``` r
-## Install ArchaeoPhases
-# install.packages("ArchaeoPhases")
 library(fasti)
-library(ArchaeoPhases)
 ```
 
 The `inst/` directory contains:
@@ -58,6 +57,10 @@ This package allows to replicate the following results:
     Menessier-Jouannet *et al.* (1995)
 
 ``` r
+## Install chronos
+# install.packages("chronos")
+library(chronos)
+
 ## Import ChronoModel output
 lezoux_path <- system.file("chronomodel/lezoux/Chain_all_Events.csv", 
                            package = "fasti")
@@ -66,6 +69,8 @@ lezoux_event <- read_chronomodel_events(lezoux_path, sep = ";", dec = ",")
 ## Plot MCMC sample
 plot(lezoux_event, interval = "hpdi")
 ```
+
+<img src="man/figures/README-chronomodel-1.png" style="display: block; margin: auto;" />
 
 ### OxCal
 

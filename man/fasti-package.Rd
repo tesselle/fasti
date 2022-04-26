@@ -5,11 +5,9 @@
 \alias{fasti-package}
 \alias{_PACKAGE}
 \alias{fasti}
-\title{fasti: Datasets for 'ArchaeoPhases'}
+\title{fasti: Datasets for 'chronos'}
 \description{
-Datasets for Chronological Modelling with 'ArchaeoPhases'.
-    This package provides models and data to reproduce results from
-    'ArchaeoPhases' examples and vignettes.
+Datasets for chronological modelling with 'chronos'. This package provides models and data to reproduce results from 'chronos' examples and vignettes.
 }
 \details{
 \tabular{ll}{

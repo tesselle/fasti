@@ -1,5 +1,5 @@
 Package: fasti
-Title: Datasets for 'ArchaeoPhases'
+Title: Datasets for 'chronos'
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Anne",
@@ -18,9 +18,9 @@ Authors@R:
              comment = c(ORCID = "0000-0001-5759-4944")))
 Maintainer: Nicolas Frerebeau
     <nicolas.frerebeau@u-bordeaux-montaigne.fr>
-Description: Datasets for Chronological Modelling with 'ArchaeoPhases'.
+Description: Datasets for chronological modelling with 'chronos'.
     This package provides models and data to reproduce results from
-    'ArchaeoPhases' examples and vignettes.
+    'chronos' examples and vignettes.
 License: GPL (>= 3)
 URL: https://packages.tesselle.org/fasti/,
     https://github.com/tesselle/fasti
